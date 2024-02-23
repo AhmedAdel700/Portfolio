@@ -142,10 +142,26 @@ section.home-page .icons a:last-child:hover {
     height: 100vh;
     text-align: center;
   }
+  section.home-page .left-section h1.title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  section.home-page .left-section h3 {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+  section.home-page .left-section p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  section.home-page .left-section p > span {
+    font-size: 1rem;
+  }
   section.home-page .icons {
     gap: 1.5rem;
   }
-  section.home-page .left-section .avatar{
+  section.home-page .left-section .avatar {
     margin: auto;
   }
 }
