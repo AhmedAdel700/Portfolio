@@ -1,0 +1,153 @@
+/*
+********************************************************
+Table Of Content
+********************************************************
+1.Main
+2.Left-Section
+3.Right-Section
+********************************************************
+*/
+
+/*Start Main*/
+main.flex {
+  gap: 3rem;
+  min-height: calc(100vh - 4.1rem);
+  align-items: start;
+}
+/*End Main*/
+
+/*Start left-section*/
+main.flex .left-section {
+  flex-direction: column;
+  gap: 0.8rem;
+  margin: 5rem 0 0;
+  justify-content: center;
+}
+main.flex .left-section button {
+  background-color: rgba(36, 37, 46, 1);
+  width: 11rem;
+  padding: 0.7rem 0;
+  text-align: center;
+  opacity: 0.5;
+  transition: 0.35s;
+  border-radius: 0.3rem;
+}
+main.flex .left-section button:hover {
+  color: var(--blue);
+  opacity: 1;
+}
+main.flex .left-section button.activeLink {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  opacity: 1;
+  font-weight: 500;
+}
+/*End left-section*/
+
+/*Start right-section*/
+main.flex .right-section {
+  /* flex: 1; */
+  margin: 5rem 0 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+main.flex .right-section .site-info {
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  transition: 0.35s;
+  border-radius: 0.25rem;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  height: 300px;
+  position: relative;
+}
+main.flex .right-section .site-info:hover {
+  border: 1px solid var(--blue);
+  rotate: 1deg;
+  scale: 1.03;
+}
+main.flex .right-section img {
+  max-width: 17.5rem;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+main.flex .right-section .card {
+  max-width: 17.5rem;
+  padding: 1rem 0.4rem;
+}
+main.flex .right-section .card .title {
+  color: var(--title);
+  margin-top: -0.25rem;
+  margin-bottom: 0.7rem;
+}
+main.flex .right-section .card .subtitle {
+  color: var(--subtitle);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+main.flex .right-section .card .icons {
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+main.flex .right-section .card .box {
+  gap: 1rem;
+  font-size: 1.2rem;
+  color: var(--subtitle);
+}
+main.flex .right-section .card .box a {
+  transition: 0.35s;
+}
+main.flex .right-section .card .box a:hover {
+  color: var(--blue);
+}
+main.flex .right-section .card .icons a:last-child {
+  transition: 0.35s;
+  gap: 0.25rem;
+}
+main.flex .right-section .card .icons a:last-child:hover {
+  color: var(--blue);
+}
+.more {
+  position: absolute;
+  right: 1rem;
+}
+/*End right-section*/
+
+/*Start Responsive*/
+@media (max-width: 767px) {
+  main.flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  main.flex .left-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main.flex .right-section {
+    /* flex: 1; */
+    margin: 0rem 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  main.flex .right-section img {
+    max-width: 100%;
+  }
+  main.flex .right-section .card {
+    max-width: 100%;
+  }
+  main.flex .right-section .site-info {
+    min-height: 350px;
+    position: relative;
+  }
+  main.flex .right-section .card .subtitle {
+    font-size: 1rem;
+  }
+  main.flex .left-section button {
+    width: 10.5rem;
+  }
+}
+/*End Responsive*/
