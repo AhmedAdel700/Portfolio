@@ -21,6 +21,7 @@ export const dataOfProjects = [
     image: "./Vanlife.png",
     github: "https://github.com/AhmedAdel700/Vanlife",
     link: "https://main--the-vanlife-project.netlify.app/",
+    catagory: ["react", "bootstrap", "figma", "all"],
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ export const dataOfProjects = [
     image: "./Kasper.jpg",
     github: "https://github.com/AhmedAdel700/Kasper",
     link: "https://ahmedadel700.github.io/Kasper/",
+    catagory: ["HCJ", "all"],
   },
   {
     id: 3,
@@ -39,6 +41,7 @@ export const dataOfProjects = [
     image: "./bondi.png",
     github: "https://github.com/AhmedAdel700/Bondi",
     link: "https://ahmedadel700.github.io/Bondi",
+    catagory: ["HCJ", "bootstrap", "all"],
   },
   {
     id: 4,
@@ -48,6 +51,7 @@ export const dataOfProjects = [
     image: "./Dashboard.png",
     github: "https://github.com/AhmedAdel700/Dashboard",
     link: "https://ahmedadel700.github.io/Dashboard/",
+    catagory: ["HCJ", "all"],
   },
   {
     id: 5,
@@ -57,5 +61,6 @@ export const dataOfProjects = [
     image: "./leon.png",
     github: "https://github.com/AhmedAdel700/Leon",
     link: "https://ahmedadel700.github.io/Leon/",
+    catagory: ["HCJ", "all"],
   },
 ];

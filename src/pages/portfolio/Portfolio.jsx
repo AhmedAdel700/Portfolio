@@ -2,13 +2,23 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./portfolio.css";
 import { dataOfProjects } from "../../api";
+
 export default function Portfolio() {
+  const [data, setData] = useState(dataOfProjects);
   const [active, setActive] = useState(1);
+
   function isActive(id) {
     setActive(id);
   }
 
-  const projects = dataOfProjects.map((project) => {
+  function filteredData(category) {
+    const newDataArr = dataOfProjects.filter((project) =>
+      project.catagory.includes(category)
+    );
+    setData(newDataArr);
+  }
+
+  const projects = data.map((project) => {
     return (
       <div key={project.id} className="site-info">
         <div className="img-holder">
@@ -44,31 +54,46 @@ export default function Portfolio() {
     <main className="flex">
       <section className="left-section flex">
         <button
-          onClick={() => isActive(1)}
+          onClick={() => {
+            isActive(1);
+            filteredData("all");
+          }}
           className={active === 1 && "activeLink"}
         >
           All Projects
         </button>
         <button
-          onClick={() => isActive(2)}
+          onClick={() => {
+            isActive(2);
+            filteredData("react");
+          }}
           className={active === 2 && "activeLink"}
         >
           React.js
         </button>
         <button
-          onClick={() => isActive(3)}
+          onClick={() => {
+            isActive(3);
+            filteredData("HCJ");
+          }}
           className={active === 3 && "activeLink"}
         >
           HTML & CSS & JS
         </button>
         <button
-          onClick={() => isActive(4)}
+          onClick={() => {
+            isActive(4);
+            filteredData("bootstrap");
+          }}
           className={active === 4 && "activeLink"}
         >
           Bootstrap
         </button>
         <button
-          onClick={() => isActive(5)}
+          onClick={() => {
+            isActive(5);
+            filteredData("figma");
+          }}
           className={active === 5 && "activeLink"}
         >
           Figma

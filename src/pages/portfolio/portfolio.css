@@ -61,6 +61,7 @@ main.flex .right-section .site-info {
   );
   height: 300px;
   position: relative;
+  animation: rot 0.7s;
 }
 main.flex .right-section .site-info:hover {
   border: 1px solid var(--blue);
@@ -151,3 +152,20 @@ main.flex .right-section .card .icons a:last-child:hover {
   }
 }
 /*End Responsive*/
+
+/*Start Animation*/
+@keyframes rot {
+  0% {
+    rotate: 0;
+    scale: 0;
+  }
+  50% {
+    rotate: 3deg;
+    scale: 1.1;
+  }
+  100% {
+    rotate: -3deg;
+    scale: 1;
+  }
+}
+/*End Animation*/
