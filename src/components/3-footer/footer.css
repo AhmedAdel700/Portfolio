@@ -1,13 +1,11 @@
 /*Start Icons*/
 footer .icons {
-  margin: 1rem auto 3rem auto;
+  min-height: 100px;
+  margin: 1rem auto 0rem auto;
   display: flex;
   gap: 1.7rem;
   font-size: 20px;
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  justify-content: center;
 }
 footer .icons a {
   border-radius: 50%;
@@ -80,11 +78,11 @@ footer .icons a:last-child:hover {
     gap: 1.5rem;
     font-size: 18px;
     margin: 1rem auto 0rem auto;
-    bottom: 50px;
   }
 }
 @media (max-width: 767px) {
   footer .icons {
+    bottom: 10px;
     gap: 1.5rem;
     margin: 1rem auto 0rem auto;
   }

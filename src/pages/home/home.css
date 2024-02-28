@@ -8,11 +8,9 @@ Table Of Content
 */
 
 /*Start Left-Section*/
-.home-page {
-  min-height: calc(100vh - 9.1rem);
-  position: relative;
-}
 section.home-page {
+  min-height: calc(100vh - 16.3rem);
+  position: relative;
   margin: 5rem 0 0;
   align-items: start;
   position: relative;
@@ -61,25 +59,19 @@ section.home-page .left-section p > span {
 
 /*Start Responsive*/
 @media (max-width: 991px) {
-  .home-page {
-    min-height: 100vh;
-  }
-  section.home-page .icons {
-    gap: 1.5rem;
-    font-size: 18px;
+  section.home-page {
+    max-height: 100vh;
   }
   section.home-page .left-section p {
     margin-bottom: 8rem;
   }
 }
 @media (max-width: 767px) {
-  .home-page {
-    max-height: 100vh;
+  section.home-page {
+    min-height: calc(100vh - 15.4rem);
     flex-direction: column;
     text-align: center;
-  }
-  section.home-page {
-    margin: 3rem 0 0;
+    margin: 2.6rem 0 2.6rem;
   }
   section.home-page .left-section h1.title {
     font-size: 1.5rem;
