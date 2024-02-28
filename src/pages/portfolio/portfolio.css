@@ -52,13 +52,10 @@ main.flex .right-section {
   gap: 1rem;
 }
 main.flex .right-section .site-info {
-  border: 1px solid rgba(93, 188, 252, 0.3);
+  border: 1px solid rgba(93, 188, 252, 0.4);
   transition: 0.35s;
   border-radius: 0.25rem;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0.05)
-  );
+  background-image: var(--bgCard);
   min-height: 300px;
   position: relative;
   animation: rot 0.7s;
@@ -115,6 +112,7 @@ main.flex .right-section .card .icons a:last-child:hover {
 .more {
   position: absolute;
   right: 1rem;
+  color: var(--title);
 }
 /*End right-section*/
 

@@ -1,17 +1,41 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import "./header.css";
-import { useState } from "react";
 export default function Header() {
+  const storedTheme = JSON.parse(localStorage.getItem("theme"));
+  const [theme, setTheme] = useState(storedTheme || "dark");
   const [showMenu, setShowMenu] = useState(false);
   const [rotate, setRotate] = useState(false);
+
+  useEffect(() => {
+    document.body.classList.add(theme);
+    localStorage.setItem("theme", JSON.stringify(theme));
+  }, [theme]);
+
+  function toggleTheme() {
+    if (theme === "dark") {
+      document.body.classList.remove(theme);
+      setTheme("light");
+    } else {
+      document.body.classList.remove(theme);
+      setTheme("dark");
+    }
+  }
+
   function toggleMenu() {
     setShowMenu((prev) => !prev);
   }
+
   function rotateIcon() {
     setRotate((prev) => !prev);
     setTimeout(() => {
       setRotate(false);
     }, 500);
+  }
+
+  function handleTheme() {
+    toggleTheme();
+    rotateIcon();
   }
 
   return (
@@ -43,10 +67,10 @@ export default function Header() {
         </ul>
       </nav>
       <button
-        onClick={rotateIcon}
+        onClick={handleTheme}
         className={rotate ? "mode rotate flex" : "mode flex"}
       >
-        <span className="icon-moon-o"></span>
+        <span className={theme === "dark" ? "icon-moon-o" : "icon-sun"}></span>
       </button>
       {showMenu && (
         <div className="fixed">
@@ -56,13 +80,19 @@ export default function Header() {
                 <button className="icon-remove" onClick={toggleMenu}></button>
               </li>
               <li>
-                <Link onClick={toggleMenu} to="/">Home</Link>
+                <Link onClick={toggleMenu} to="/">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link onClick={toggleMenu} to="portfolio">Portfolio</Link>
+                <Link onClick={toggleMenu} to="portfolio">
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <Link onClick={toggleMenu} to="contact">Contact</Link>
+                <Link onClick={toggleMenu} to="contact">
+                  Contact
+                </Link>
               </li>
               <li className="resume">
                 <Link

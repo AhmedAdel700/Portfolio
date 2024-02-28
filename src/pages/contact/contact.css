@@ -25,7 +25,7 @@ section.contact .text {
   width: 95%;
   margin: 0 auto;
   text-transform: capitalize;
-  color: var(--blue);
+  color: var(--title);
   font-weight: 600;
 }
 section.contact .text h2 {
@@ -73,7 +73,7 @@ section.contact .form .send {
   background-color: var(--blue);
   color: var(--primary);
   font-weight: bold;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid var(--primary);
   text-align: center;
 }
 section.contact .form .send:hover {

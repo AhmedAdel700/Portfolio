@@ -20,7 +20,7 @@ section.home-page .left-section {
 }
 section.home-page .left-section .avatar {
   width: 150px;
-  border: 1px solid darkorange;
+  border: 1px solid var(--img-border);
   border-radius: 50%;
   padding: 1px;
   box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.6) inset;
@@ -84,7 +84,6 @@ section.home-page .left-section p > span {
   section.home-page .left-section p {
     font-size: 0.8rem;
     line-height: 1.5rem;
-    margin-bottom: 3rem;
   }
   section.home-page .left-section p > span {
     font-size: 1rem;

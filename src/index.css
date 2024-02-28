@@ -16,6 +16,21 @@ html {
   --subtitle: rgb(161 161 170);
   --bgHeader: rgb(39 39 42);
   --blue: rgb(93 188 252);
+  --bgCard: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  --img-border: darkorange;
+}
+.light {
+  --primary: rgb(250, 250, 250);
+  --secondry: rgba(0, 148, 246, 0.2);
+  --border: rgba(202, 202, 202, 0.518);
+  --title: rgb(39, 39, 42);
+  --subtitle: rgb(82, 82, 91);
+  --bgHeader: rgb(253, 253, 253);
+  --blue: rgb(0, 149, 246);
+  --bgCard: linear-gradient(rgba(0, 148, 246, 0.438), rgba(0, 148, 246, 0.26));
 }
 body {
   background-color: var(--primary);
@@ -60,9 +75,12 @@ button {
   all: unset;
   cursor: pointer;
 }
-button:active {
-  scale: 0.9;
+button.disabled {
+  cursor: no-drop;
 }
+/* button:active {
+  scale: 0.9;
+} */
 @media (max-width: 991px) {
   .container {
     width: 90%;

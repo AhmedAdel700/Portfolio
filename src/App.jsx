@@ -7,7 +7,7 @@ import {
 import Layout from "./components/Layout";
 import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/Portfolio";
-import Contact, { action } from "./pages/contact/Contact";
+import Contact from "./pages/contact/Contact";
 import Error from "./components/error/Error";
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,7 +18,7 @@ const router = createBrowserRouter(
         path="contact"
         element={<Contact />}
         errorElement={<Error />}
-        action={action}
+        // action={action}
       />
     </Route>
   )

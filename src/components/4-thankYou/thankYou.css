@@ -1,0 +1,31 @@
+section.thanks-you-message {
+  min-height: calc(100vh - 4.1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--title);
+}
+section.thanks-you-message a {
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+@media (max-width: 991px) {
+  section.thanks-you-message {
+    min-height: calc(100vh - 4.1rem);
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
+  section.thanks-you-message a {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+}

@@ -19,13 +19,15 @@ export default function UpButton() {
       behavior: "smooth",
     });
   }
+  const styles = {
+    opacity: showUp ? 0.8 : 0,
+    transition: "0.35s",
+  };
   return (
     <>
-      {showUp && (
-        <button onClick={scrollTOTop} className="up">
-          Up
-        </button>
-      )}
+      <button style={styles} onClick={scrollTOTop} className="up">
+        Up
+      </button>
     </>
   );
 }

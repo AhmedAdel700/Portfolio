@@ -40,7 +40,7 @@ export default function Portfolio() {
                   className="icon-github"
                 ></Link>
               </span>
-              <Link className="flex more" to="">
+              <Link className="flex more" to={project.link} target="_blank">
                 More <span className="icon-forward"></span>
               </Link>
             </div>
