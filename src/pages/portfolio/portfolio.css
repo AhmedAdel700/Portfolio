@@ -59,7 +59,7 @@ main.flex .right-section .site-info {
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0.05)
   );
-  height: 300px;
+  min-height: 300px;
   position: relative;
   animation: rot 0.7s;
 }
@@ -119,6 +119,11 @@ main.flex .right-section .card .icons a:last-child:hover {
 /*End right-section*/
 
 /*Start Responsive*/
+@media (max-width: 991px) {
+  main.flex .right-section .card .subtitle {
+    margin-bottom: 1.5rem;
+  }
+}
 @media (max-width: 767px) {
   main.flex {
     flex-direction: column;

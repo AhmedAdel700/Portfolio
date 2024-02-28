@@ -1,0 +1,28 @@
+.up {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  background-color: var(--blue);
+  color: var(--bgHeader);
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 100%;
+  border-radius: 20%;
+  font-size: 1rem;
+  opacity: 0.8;
+  z-index: 10;
+}
+@media (max-width: 991px) {
+  .up {
+    bottom: 10%;
+    right: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .up {
+    bottom: 7%;
+    right: 7%;
+  }
+}

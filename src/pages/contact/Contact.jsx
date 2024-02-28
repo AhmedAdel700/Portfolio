@@ -64,7 +64,7 @@ export default function Contact() {
           <span className="thanks">Thank You For Your Interest !</span>
         )}
       </section>
-      <section className="right-side">A</section>
+      <section className="right-side"></section>
     </section>
   );
 }

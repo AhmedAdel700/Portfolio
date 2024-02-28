@@ -57,6 +57,7 @@ header .mode {
   color: var(--subtitle);
   border: 1px solid rgba(244, 165, 96, 0.25);
   transition: 0.35s;
+  user-select: none;
 }
 header .icon-menu:hover,
 header .mode:hover {

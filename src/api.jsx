@@ -63,4 +63,14 @@ export const dataOfProjects = [
     link: "https://ahmedadel700.github.io/Leon/",
     catagory: ["HCJ", "all"],
   },
+  {
+    id: 6,
+    title: "FS.",
+    description: "",
+    tech: "HTML(5) | CSS(3)",
+    image: "./FS.png",
+    github: "https://github.com/AhmedAdel700/FS",
+    link: "https://ahmedadel700.github.io/FS/",
+    catagory: ["HCJ", "all"],
+  },
 ];

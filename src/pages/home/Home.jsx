@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Footer from "../../components/3-footer/Footer";
 import "./home.css";
 export default function Home() {
   return (
@@ -14,35 +14,9 @@ export default function Home() {
           Web Developer <span>|</span> Front-End Developer <span>| </span>
           React.js Developer
         </p>
-        <div className="icons">
-          <Link
-            className="icon-linkedin"
-            to="https://www.linkedin.com/in/ahmed-adel-232272283/"
-            target="_blank"
-          ></Link>
-          <Link
-            className="icon-envelope-o"
-            to="mailto:ahmedadel.enginner1@gmail.com"
-            target="_blank"
-          ></Link>
-          <Link
-            className="icon-github"
-            to="https://github.com/AhmedAdel700"
-            target="_blank"
-          ></Link>
-          <Link
-            className="icon-telegram"
-            to="https://telegram.me/Ahmed_Web_Adel"
-            target="_blank"
-          ></Link>
-          <Link
-            className="icon-facebook-f"
-            to="https://www.facebook.com/profile.php?id=100058786266217&mibextid=ZbWKwL"
-            target="_blank"
-          ></Link>
-        </div>
       </div>
-      <div className="right-section">Right</div>
+      {/* <div className="right-section">Right</div> */}
+      <Footer />
     </section>
   );
 }
