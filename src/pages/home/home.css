@@ -36,35 +36,67 @@ section.home-page .left-section .avatar .icon-verified {
   margin-bottom: 0.5rem;
 }
 section.home-page .left-section h1.title {
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.8rem;
   margin: 1.5rem 0 0;
   color: var(--title);
 }
 section.home-page .left-section h3 {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
   color: var(--subtitle);
 }
 section.home-page .left-section p {
   color: var(--blue);
   line-height: 1.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 section.home-page .left-section p > span {
   color: var(--subtitle);
   font-size: 1.2rem;
 }
+section.home-page .left-section .skills {
+  margin-top: 1rem;
+}
 /*End Left-Section*/
 
+/*Start Right-Section*/
+section.home-page .right-section {
+  width: 40%;
+}
+section.home-page .right-section .home-animation {
+  width: 27rem;
+  margin: 3rem 4rem 0;
+}
+/*End Right-Section*/
+
 /*Start Responsive*/
+@media (max-width: 1050px) {
+  section.home-page {
+    flex-direction: column;
+  }
+  section.home-page .left-section {
+    flex: 0;
+    max-height: 300px;
+  }
+  section.home-page .right-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+  section.home-page .right-section .home-animation {
+    width: 30rem;
+    margin: 0;
+  }
+}
 @media (max-width: 991px) {
   section.home-page {
-    max-height: 100vh;
+    min-height: calc(100vh - 16.5rem);
   }
-  section.home-page .left-section p {
+  /* section.home-page .left-section p {
     margin-bottom: 8rem;
-  }
+  } */
 }
 @media (max-width: 767px) {
   section.home-page {
@@ -72,18 +104,23 @@ section.home-page .left-section p > span {
     flex-direction: column;
     text-align: center;
     margin: 2.6rem 0 2.6rem;
+    text-align: center;
+  }
+  section.home-page .left-section {
+    width: 100%;
   }
   section.home-page .left-section h1.title {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
   }
   section.home-page .left-section h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.4rem;
   }
   section.home-page .left-section p {
-    font-size: 0.8rem;
-    line-height: 1.5rem;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    margin-bottom: 0;
   }
   section.home-page .left-section p > span {
     font-size: 1rem;
@@ -93,6 +130,15 @@ section.home-page .left-section p > span {
   }
   section.home-page .left-section .avatar {
     margin: auto;
+    width: 8.5rem;
+  }
+  section.home-page .right-section {
+    min-height: 100%;
+    margin-top: 1rem;
+  }
+  section.home-page .right-section .home-animation {
+    width: 30rem;
+    margin: 0;
   }
 }
 /*End Responsive*/

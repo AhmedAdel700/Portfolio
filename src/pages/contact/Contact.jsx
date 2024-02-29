@@ -1,6 +1,8 @@
 import { useForm, ValidationError } from "@formspree/react";
-import "./contact.css";
 import ThankYou from "../../components/4-thankYou/ThankYou";
+import Lottie from "lottie-react";
+import contactUs from "../../../public/animations/Animation - 1709212975645.json";
+import "./contact.css";
 
 export default function Contact() {
   const [state, handleSubmit] = useForm("mnqejapp");
@@ -56,7 +58,9 @@ export default function Contact() {
           </button>
         </form>
       </section>
-      <section className="right-side"></section>
+      <section className="right-side flex">
+        <Lottie animationData={contactUs} className="contact-animation" />
+      </section>
     </section>
   );
 }

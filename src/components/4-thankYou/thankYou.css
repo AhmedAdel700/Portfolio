@@ -9,6 +9,10 @@ section.thanks-you-message {
   text-align: center;
   color: var(--title);
 }
+section.thanks-you-message h1,
+section.thanks-you-message h2 {
+  font-weight: 500;
+}
 section.thanks-you-message a {
   font-size: 1rem;
   background-color: black;
@@ -24,8 +28,17 @@ section.thanks-you-message a {
     gap: 1rem;
     font-size: 0.8rem;
   }
+  section.thanks-you-message h2 {
+    font-size: 1rem;
+  }
   section.thanks-you-message a {
     font-size: 0.8rem;
     padding: 0.8rem;
+  }
+}
+@media (max-width: 767px) {
+  section.thanks-you-message .done-animation {
+    width: 10rem;
+    margin-bottom: 1rem;
   }
 }
