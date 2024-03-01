@@ -1,19 +1,18 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?jxfpfa");
-  src: url("fonts/icomoon.eot?jxfpfa#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?jxfpfa") format("truetype"),
-    url("fonts/icomoon.woff?jxfpfa") format("woff"),
-    url("fonts/icomoon.svg?jxfpfa#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?3s3nk0');
+  src:  url('fonts/icomoon.eot?3s3nk0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?3s3nk0') format('truetype'),
+    url('fonts/icomoon.woff?3s3nk0') format('woff'),
+    url('fonts/icomoon.svg?3s3nk0#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -56,6 +55,9 @@
 .icon-facebook-f:before {
   content: "\f09a";
 }
+.icon-github1:before {
+  content: "\f09b";
+}
 .icon-linkedin:before {
   content: "\f0e1";
 }
@@ -76,6 +78,45 @@
 }
 .icon-github:before {
   content: "\eab0";
+}
+.icon-bootstrap:before {
+  content: "\e906";
+  color: #563d7c;
+}
+.icon-css31:before {
+  content: "\e90d";
+  color: #1572b6;
+}
+.icon-figma:before {
+  content: "\e907";
+  color: #f24e1e;
+}
+.icon-git1:before {
+  content: "\e90c";
+  color: #f05032;
+}
+.icon-github2:before {
+  content: "\e90e";
+}
+.icon-html51:before {
+  content: "\e90f";
+  color: #e34f26;
+}
+.icon-javascript:before {
+  content: "\e908";
+  color: #f7df1e;
+}
+.icon-postman:before {
+  content: "\e909";
+  color: #ff6c37;
+}
+.icon-react:before {
+  content: "\e90a";
+  color: #61dafb;
+}
+.icon-redux:before {
+  content: "\e90b";
+  color: #764abc;
 }
 .icon-menu:before {
   content: "\e901";

@@ -20,22 +20,18 @@ export default function Home() {
             React.js Developer
           </p>
           <div className="skills">
-            <h3>Skills And Technologies</h3>
             <div className="my-skills">
               <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Javascript</li>
-                <li>Bootstrap</li>
-                <li>Postman</li>
-                <li>React.js</li>
-                <li>Vite Js</li>
-                <li>React Router</li>
-                <li>Redux</li>
-                <li>Redux ToolKit</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Figma</li>
+                <li className="icon-html51"></li>
+                <li className="icon-css31"></li>
+                <li className="icon-javascript"></li>
+                <li className="icon-bootstrap"></li>
+                <li className="icon-postman"></li>
+                <li className="icon-react"></li>
+                <li className="icon-redux"></li>
+                <li className="icon-git1"></li>
+                <li className="icon-github2"></li>
+                <li className="icon-figma"></li>
               </ul>
             </div>
           </div>

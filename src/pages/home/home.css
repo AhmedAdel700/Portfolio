@@ -55,35 +55,29 @@ section.home-page .left-section p > span {
 }
 section.home-page .left-section .skills {
   margin-top: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.7rem 1.5rem;
-  border-radius: 1.5rem;
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
   user-select: none;
 }
-section.home-page .left-section .skills h3 {
+section.home-page .left-section .skills h4 {
   color: var(--titlte);
   font-weight: 500;
-}
-section.home-page .left-section .skills div {
-  min-height: 90px;
-  width: fit-content;
 }
 section.home-page .left-section .skills div ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
 }
-.skills ul li {
-  color: var(--blue);
-  line-height: 1.2rem;
-  padding: 0.5rem;
-  background-color: var(--border);
+section.home-page .left-section .skills div ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  width: 50px;
+  height: 50px;
+  text-align: center;
   margin: 0.25rem;
-  border-radius: 0 0.5rem;
-  font-size: 0.9rem;
-  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 /*End Left-Section*/
 
@@ -110,7 +104,7 @@ section.home-page .right-section .home-animation {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 6.5rem;
+    margin-top: 6rem;
   }
   section.home-page .right-section .home-animation {
     width: 30rem;
@@ -118,7 +112,6 @@ section.home-page .right-section .home-animation {
   }
   section.home-page .left-section .skills {
     margin-top: 0.9rem;
-    padding: 0.5rem 1.5rem;
   }
   .skills ul li {
     font-size: 0.8rem;
@@ -159,16 +152,13 @@ section.home-page .right-section .home-animation {
   section.home-page .left-section p > span {
     font-size: 1rem;
   }
-
   section.home-page .left-section .skills {
     margin-top: 1rem;
-    padding: 0.5rem 0.8rem;
   }
-  section.home-page .left-section .skills div {
-    min-height: 80px;
+  section.home-page .left-section .skills div ul {
+    justify-content: center;
   }
   .skills ul li {
-    padding: 0.4rem;
     font-size: 0.8rem;
   }
 
@@ -181,7 +171,7 @@ section.home-page .right-section .home-animation {
   }
   section.home-page .right-section {
     min-height: 100%;
-    margin-top: 6.5rem;
+    margin-top: 1.2rem;
   }
   section.home-page .right-section .home-animation {
     width: 30rem;
