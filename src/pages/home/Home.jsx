@@ -21,13 +21,23 @@ export default function Home() {
           </p>
           <div className="skills">
             <h3>Skills And Technologies</h3>
-            <p className="my-skills">
-              HTML5 <span>|</span> CSS3 <span>|</span> Javascript ES6+{" "}
-              <span>|</span> Bootstrap <span>|</span> React.js <span>|</span>{" "}
-              React Router <span>|</span> Redux <span>|</span> Redux ToolKit{" "}
-              <span>|</span> Vite JS <span>|</span> Postman <span>|</span> Git &
-              GitHub <span>|</span> Figma
-            </p>
+            <div className="my-skills">
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>Bootstrap</li>
+                <li>Postman</li>
+                <li>React.js</li>
+                <li>Vite Js</li>
+                <li>React Router</li>
+                <li>Redux</li>
+                <li>Redux ToolKit</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Figma</li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="right-section">
