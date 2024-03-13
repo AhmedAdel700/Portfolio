@@ -1,6 +1,7 @@
 import Footer from "../../components/3-footer/Footer";
 import Lottie from "lottie-react";
 import homeAnimation from "../../../public/animations/Animation - 1709228982734.json";
+import MUI from "../../../public/images/MUI.png";
 import "./home.css";
 export default function Home() {
   return (
@@ -26,6 +27,9 @@ export default function Home() {
                 <li className="icon-css31"></li>
                 <li className="icon-javascript"></li>
                 <li className="icon-bootstrap"></li>
+                <li>
+                  <img className="mui" src={MUI} alt="MUI" />
+                </li>
                 <li className="icon-postman"></li>
                 <li className="icon-react"></li>
                 <li className="icon-redux"></li>

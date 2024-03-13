@@ -73,4 +73,14 @@ export const dataOfProjects = [
     link: "https://ahmedadel700.github.io/FS/",
     catagory: ["HCJ", "all"],
   },
+  {
+    id: 7,
+    title: "React Dashboard",
+    description: "",
+    tech: "React.js | React Router | Json Server | Material Ui | CSS(3)",
+    image: "./images/ReactDashboard.png",
+    github: "https://github.com/AhmedAdel700/MUI-Dashboard",
+    link: "https://65f19880156b5f13deb2f0af--roaring-tiramisu-d98f20.netlify.app/",
+    catagory: ["material-ui", "all"],
+  },
 ];

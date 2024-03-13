@@ -98,6 +98,15 @@ export default function Portfolio() {
         >
           Figma
         </button>
+        <button
+          onClick={() => {
+            isActive(6);
+            filteredData("material-ui");
+          }}
+          className={active === 6 && "activeLink"}
+        >
+          Material Ui
+        </button>
       </section>
       <section className="right-section flex">{projects}</section>
     </main>

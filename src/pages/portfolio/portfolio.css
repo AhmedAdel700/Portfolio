@@ -13,6 +13,7 @@ main.flex {
   gap: 3rem;
   min-height: calc(100vh - 4.1rem);
   align-items: start;
+  margin-bottom: 1rem;
 }
 /*End Main*/
 
