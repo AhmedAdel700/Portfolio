@@ -92,20 +92,20 @@ export default function Portfolio() {
         <button
           onClick={() => {
             isActive(5);
-            filteredData("figma");
+            filteredData("material-ui");
           }}
           className={active === 5 && "activeLink"}
         >
-          Figma
+          Material Ui
         </button>
         <button
           onClick={() => {
             isActive(6);
-            filteredData("material-ui");
+            filteredData("figma");
           }}
           className={active === 6 && "activeLink"}
         >
-          Material Ui
+          Figma
         </button>
       </section>
       <section className="right-section flex">{projects}</section>
