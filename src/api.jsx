@@ -91,6 +91,6 @@ export const dataOfProjects = [
     image: "./images/Prayer-Timing.png",
     github: "https://github.com/AhmedAdel700/Prayer-Timings",
     link: "https://prayer-timings-project.netlify.app/",
-    catagory: ["material-ui", "all"],
+    catagory: ["material-ui", "react", "all"],
   },
 ];
