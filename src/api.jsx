@@ -81,6 +81,16 @@ export const dataOfProjects = [
     image: "./images/ReactDashboard.png",
     github: "https://github.com/AhmedAdel700/MUI-Dashboard",
     link: "https://65f19880156b5f13deb2f0af--roaring-tiramisu-d98f20.netlify.app/",
+    catagory: ["material-ui", "react", "all"],
+  },
+  {
+    id: 8,
+    title: "Prayer Timings",
+    description: "",
+    tech: "React.js | Vite Js | Material Ui | CSS(3)",
+    image: "./images/Prayer-Timing.png",
+    github: "https://github.com/AhmedAdel700/Prayer-Timings",
+    link: "https://prayer-timings-project.netlify.app/",
     catagory: ["material-ui", "all"],
   },
 ];
