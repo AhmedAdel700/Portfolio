@@ -58,7 +58,7 @@ export default function Header() {
           </li>
           <li className="resume">
             <Link
-              to="https://drive.google.com/uc?export=download&id=1B6uIdNp61HyeRiXzLPdJLrM9rwuFQnnd"
+              to="https://drive.google.com/uc?export=download&id=1H_S6bHEWqkQemoeV30sKxCOA0ioQnxMV"
               download="Ahmed-Adel-Resume.pdf"
             >
               Download Resume

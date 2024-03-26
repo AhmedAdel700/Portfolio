@@ -25,6 +25,16 @@ export const dataOfProjects = [
   },
   {
     id: 2,
+    title: "Admin Dashboard",
+    description: "",
+    tech: "React.js | React Router | React Hook Form | Material Ui | CSS(3) | Nivo | Vite js",
+    image: "./images/AdminDashboard.png",
+    github: "https://github.com/AhmedAdel700/React-Dashboard",
+    link: "https://react-admin-dashboard-project1.netlify.app/",
+    catagory: ["material-ui", "react", "all"],
+  },
+  {
+    id: 3,
     title: "Kasper",
     description: "",
     tech: "HTML(5) | CSS(3) | Javascript ",
@@ -34,7 +44,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Bondi",
     description: "",
     tech: "HTML(5) | CSS(3) | Javascript | Bootstrap",
@@ -44,7 +54,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "bootstrap", "all"],
   },
   {
-    id: 4,
+    id: 5,
     title: "Dashboard",
     description: "",
     tech: "HTML(5) | CSS(3) | Javascript ",
@@ -54,7 +64,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Leon",
     description: "",
     tech: "HTML(5) | CSS(3) | Javascript ",
@@ -64,7 +74,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 6,
+    id: 7,
     title: "FS.",
     description: "",
     tech: "HTML(5) | CSS(3)",
@@ -74,7 +84,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 7,
+    id: 8,
     title: "React Dashboard",
     description: "",
     tech: "React.js | React Router | Json Server | Material Ui | CSS(3)",
@@ -84,7 +94,7 @@ export const dataOfProjects = [
     catagory: ["material-ui", "react", "all"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Prayer Timings",
     description: "",
     tech: "React.js | Vite Js | Material Ui | CSS(3)",
