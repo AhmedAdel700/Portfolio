@@ -1,0 +1,25 @@
+.notFoundPage {
+  height: calc(100vh - 4.1rem);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  color: var(--not-found);
+}
+.notFoundPage a {
+  border: 2px solid var(--not-found);
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+.notFoundPage a:hover {
+  color: var(--img-border);
+}
+
+@media (max-width: 767px) {
+  .notFoundPage h1 {
+    font-size: 1rem;
+  }
+}
