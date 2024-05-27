@@ -26,6 +26,7 @@ export default function Home() {
                 <li className="icon-html51"></li>
                 <li className="icon-css31"></li>
                 <li className="icon-javascript"></li>
+                <li className="icon-sass"></li>
                 <li className="icon-bootstrap"></li>
                 <li>
                   <img className="mui" src={MUI} alt="MUI" />
