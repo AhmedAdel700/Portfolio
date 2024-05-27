@@ -58,8 +58,8 @@ export default function Header() {
           </li>
           <li className="resume">
             <Link
-              to="https://drive.google.com/uc?export=download&id=1H_S6bHEWqkQemoeV30sKxCOA0ioQnxMV"
-              download="Ahmed-Adel-Resume.pdf"
+              to="https://drive.google.com/uc?export=download&id=1ZsxAiGOovRENaMRDycIjgTE4n68tn63r"
+              download="Ahmed Adel Resume.pdf"
             >
               Download Resume
             </Link>
@@ -96,8 +96,8 @@ export default function Header() {
               </li>
               <li className="resume">
                 <Link
-                  to="https://drive.google.com/uc?export=download&id=1PU0fcaduH_leykXR0E0e5a2NJsfb7wuO"
-                  download="Ahmed-Adel-Resume.pdf"
+                  to="https://drive.google.com/uc?export=download&id=1ZsxAiGOovRENaMRDycIjgTE4n68tn63r"
+                  download="Ahmed Adel Resume.pdf"
                 >
                   Download Resume
                 </Link>
