@@ -2,6 +2,7 @@ import Footer from "../../components/3-footer/Footer";
 import Lottie from "lottie-react";
 import homeAnimation from "../../../public/animations/Animation - 1709228982734.json";
 import MUI from "../../../public/images/MUI.png";
+
 import "./home.css";
 export default function Home() {
   return (
