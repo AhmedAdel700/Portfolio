@@ -36,19 +36,23 @@ section.home-page .left-section .avatar .icon-verified {
   margin-bottom: 0.5rem;
 }
 section.home-page .left-section h1.title {
-  font-size: 2rem;
-  line-height: 2.8rem;
-  margin: 1.5rem 0 0;
+  font-size: 4.3rem;
+  line-height: 3rem;
+  margin: 1.5rem 0 0.5rem;
   color: var(--title);
 }
-section.home-page .left-section h3 {
-  font-size: 1.2rem;
-  line-height: 2rem;
-  color: var(--subtitle);
+
+section.home-page .left-section h1 span {
+  background-image: linear-gradient(to right, #48cae4, var(--title));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 section.home-page .left-section p {
   color: var(--blue);
+  font-size: 1.5rem;
 }
+
 section.home-page .left-section p > span {
   color: var(--subtitle);
   font-size: 1.2rem;
@@ -86,18 +90,24 @@ section.home-page .right-section {
   width: 40%;
 }
 section.home-page .right-section .home-animation {
-  width: 27rem;
-  margin: 3rem 4rem 0;
+  width: 40rem;
+  margin: 3rem 0 0;
 }
 .mui {
   max-width: 60%;
   max-height: 60%;
   user-select: none;
 }
-
 /*End Right-Section*/
 
 /*Start Responsive*/
+@media (max-width: 1550px) {
+  section.home-page .right-section .home-animation {
+    width: 27rem;
+    margin: 3rem 1rem 0;
+  }
+}
+
 @media (max-width: 1050px) {
   section.home-page {
     flex-direction: column;
@@ -127,28 +137,21 @@ section.home-page .right-section .home-animation {
   section.home-page {
     min-height: calc(100vh - 16.5rem);
   }
-  /* section.home-page .left-section p {
-    margin-bottom: 8rem;
-  } */
 }
 @media (max-width: 767px) {
   section.home-page {
-    min-height: calc(100vh - 15.4rem);
+    min-height: calc(100vh - 13.7rem);
     flex-direction: column;
     text-align: center;
-    margin: 2.6rem 0 2.6rem;
+    margin: 2.6rem 0 1rem;
     text-align: center;
   }
   section.home-page .left-section {
     width: 100%;
   }
   section.home-page .left-section h1.title {
-    font-size: 1.1rem;
+    font-size: 3.5rem;
     line-height: 1.5rem;
-  }
-  section.home-page .left-section h3 {
-    font-size: 0.8rem;
-    line-height: 1.4rem;
   }
   section.home-page .left-section p {
     font-size: 0.7rem;

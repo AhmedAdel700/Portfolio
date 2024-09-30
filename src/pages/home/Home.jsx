@@ -13,10 +13,11 @@ export default function Home() {
             <img src="./AA-modified.png" alt="My-Pic" />
             <span className="icon-verified"></span>
           </div>
-          <h1 className="title">Hi And Welcome To My Personal Website</h1>
-          <h3 className="name">
-            My Name Is Ahmed Adel And I am A Web Developer
-          </h3>
+          <h1 className="title">
+            <span>Ahmed </span>
+            <span>Adel</span>
+          </h1>
+
           <p>
             Web Developer <span>|</span> Front-End Developer <span>| </span>
             React.js Developer
