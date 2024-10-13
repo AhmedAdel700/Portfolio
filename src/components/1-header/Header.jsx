@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import "./header.css";
+
 export default function Header() {
   const storedTheme = JSON.parse(localStorage.getItem("theme"));
   const [theme, setTheme] = useState(storedTheme || "dark");

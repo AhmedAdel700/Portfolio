@@ -26,6 +26,14 @@ section.home-page .left-section .avatar {
   box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.6) inset;
   gap: 0.4rem;
 }
+
+section.home-page .left-section .avatar .img-rep {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-image: url("https://via.placeholder.com/150");
+  background-size: cover;
+}
 section.home-page .left-section .avatar img {
   width: 100%;
 }

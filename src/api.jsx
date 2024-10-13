@@ -15,16 +15,26 @@ export async function loginUser(creds) {
 export const dataOfProjects = [
   {
     id: 1,
+    title: "eCommerce",
+    description: ".",
+    tech: "React.js | | Redux ToolKit | React Router | Material Ui | CSS(3) | HTML(5) | React Slick | Vite js",
+    image: "./images/ecommerce.png",
+    github: "https://github.com/AhmedAdel700/Vanlife",
+    link: "https://web-e-commerce-web.netlify.app/",
+    catagory: ["react", "material-ui", "figma", "all"],
+  },
+  {
+    id: 2,
     title: "Vanlife",
     description: "Vanlife App Is About Renting Vans For Any Kind Of Trips.",
     tech: "React.js | React Router | Bootstrap | CSS(3) | Postman | Mirage js | Vite js",
     image: "./images/Vanlife.png",
-    github: "https://github.com/AhmedAdel700/Vanlife",
+    github: "https://github.com/AhmedAdel700/eCommerce",
     link: "https://main--the-vanlife-project.netlify.app/",
     catagory: ["react", "bootstrap", "figma", "all"],
   },
   {
-    id: 2,
+    id: 3,
     title: "Admin Dashboard",
     description: "",
     tech: "React.js | React Router | React Hook Form | Material Ui | CSS(3) | Nivo | Vite js",
@@ -34,7 +44,7 @@ export const dataOfProjects = [
     catagory: ["material-ui", "react", "all"],
   },
   {
-    id: 3,
+    id: 4,
     title: "Kasper",
     description: "",
     tech: "HTML(5) | CSS(3) | JavaScript ",
@@ -44,7 +54,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 4,
+    id: 5,
     title: "E-Commerce",
     description: "",
     tech: "HTML(5) | CSS(3) | JavaScript",
@@ -54,7 +64,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 5,
+    id: 6,
     title: "Dashboard",
     description: "",
     tech: "HTML(5) | CSS(3) | JavaScript",
@@ -64,7 +74,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 6,
+    id: 7,
     title: "Leon",
     description: "",
     tech: "HTML(5) | CSS(3) | JavaScript ",
@@ -74,7 +84,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 7,
+    id: 8,
     title: "Bondi",
     description: "",
     tech: "HTML(5) | CSS(3) | JavaScript | Bootstrap",
@@ -84,7 +94,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "bootstrap", "all"],
   },
   {
-    id: 8,
+    id: 9,
     title: "VivaDecor",
     description: "",
     tech: "HTML(5) | CSS(3) | JavaScript | Bootstrap",
@@ -94,7 +104,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "bootstrap", "all"],
   },
   {
-    id: 9,
+    id: 10,
     title: "FS.",
     description: "",
     tech: "HTML(5) | CSS(3)",
@@ -104,7 +114,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 10,
+    id: 11,
     title: "One Page Portfolio",
     description: "",
     tech: "React.js | Vite Js | Bootstrap | CSS(3)",
@@ -114,7 +124,7 @@ export const dataOfProjects = [
     catagory: ["bootstrap", "react", "all"],
   },
   {
-    id: 11,
+    id: 12,
     title: "Blog Posts",
     description: "",
     tech: "React.js | NEXT.js | Material Ui | CSS(3) | Json Server ",
@@ -124,7 +134,7 @@ export const dataOfProjects = [
     catagory: ["material-ui", "react", "all"],
   },
   {
-    id: 12,
+    id: 13,
     title: "To Do List",
     description: "",
     tech: "HTML(5)| CSS(3) | JavaScript",
@@ -134,7 +144,7 @@ export const dataOfProjects = [
     catagory: ["HCJ", "all"],
   },
   {
-    id: 13,
+    id: 14,
     title: "React Dashboard",
     description: "",
     tech: "React.js | React Router | Json Server | Material Ui | CSS(3)",
@@ -144,7 +154,7 @@ export const dataOfProjects = [
     catagory: ["material-ui", "react", "all"],
   },
   {
-    id: 14,
+    id: 15,
     title: "Prayer Timings",
     description: "",
     tech: "React.js | Vite Js | Material Ui | CSS(3)",

@@ -10,7 +10,7 @@ export default function Home() {
       <section className="home-page flex">
         <div className="left-section">
           <div className="avatar flex">
-            <img src="./AA-modified.png" alt="My-Pic" />
+            <img src="./AA-modified.png" alt="My-Pic" /> 
             <span className="icon-verified"></span>
           </div>
           <h1 className="title">
